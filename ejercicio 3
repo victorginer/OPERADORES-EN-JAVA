@@ -1,0 +1,21 @@
+package cantidaddolares;
+
+import java.util.Scanner;
+
+public class CantidadDolares {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in); 
+        float rodrigo, esteban, andrea;
+        float total;
+        System.out.println("Ingrese cantidad en dolares:");
+         rodrigo = entrada.nextFloat();
+         System.out.println("rodrigo tiene:"+rodrigo);
+         andrea = rodrigo/2;
+         System.out.println("andrea tiene:"+andrea);
+         esteban =((rodrigo+andrea)/2);
+         System.out.println("esteban tine:"+esteban);
+         total = rodrigo+andrea+esteban;
+         System.out.println("la suma total de los tres es de:"+total);
+    }
+}
