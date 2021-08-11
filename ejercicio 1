@@ -1,0 +1,18 @@
+package operadoresm;
+
+import java.util.Scanner;
+
+public class Operadoresm {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        /* declarando ingreso de datos en el programa*/
+        float nota1, nota2, nota3, suma;
+        System.out.println("ingrese tres notas:");
+        nota1 = entrada.nextFloat();
+        nota2 = entrada.nextFloat();
+        nota3 = entrada.nextFloat();
+        suma = nota1+nota2+nota3;
+        System.out.println("la suma de las tres notas es:"+suma);
+    } 
+}
