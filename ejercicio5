@@ -1,0 +1,23 @@
+package ejercicio5;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        float participacion, exam1, exam2, examF;
+        float total;
+        System.out.println("CALCULADOR DE CALIFICACIONES");
+        System.out.println("digite calificación de participacion siendo <= 10pts: ");
+        participacion = entrada.nextFloat();
+        System.out.println("digite calificacion de primer parcial siendo <= 25pts: ");
+        exam1 = entrada.nextFloat();
+        System.out.println("digite la calificacion de segundo parcial siendo <=25pts: ");
+        exam2 = entrada.nextFloat();
+        System.out.println("digite la calificacion de examen final siendo <=40pts");
+        examF = entrada.nextFloat();
+        total = (float) participacion+exam1+exam2+examF;
+        System.out.println("la nota final del alumno es: "+total);
+    } 
+}
