@@ -1,0 +1,25 @@
+package ejercicio4;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+    public static void main(String[] args) {
+            Scanner entrada = new Scanner(System.in);
+            int salario, comision;
+            float valorVenta, salario2, porcentaje;
+            salario = 1000;
+            comision = 150;
+            System.out.println("salrario base:"+salario);
+            System.out.println("comision base:"+comision);
+            //declarando y mostrando salarios establecidos.
+            System.out.println("digite valor de ventas del mes: ");
+            valorVenta = entrada.nextFloat();
+            porcentaje = (float) (valorVenta*0.05);
+            //calculando el 5% de comision de las ventas.
+            System.out.println("ganancia porcentual de ventas:"+porcentaje);
+            salario2 = salario+comision+porcentaje;
+            System.out.println("el salario final del trabajador es:"+salario2);
+    }
+    
+}
