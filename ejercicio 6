@@ -1,0 +1,19 @@
+package ejercicio6;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+         
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        Double a, b, total;
+        System.out.println("digite el valor de a: ");
+        a = entrada.nextDouble();
+        System.out.println("digite valor de b: ");
+        b = entrada.nextDouble();
+        total = Math.pow((a+b), 2);
+        System.out.println("el resultado es: "+total);
+                
+    }
+    
+}
