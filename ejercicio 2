@@ -1,0 +1,20 @@
+package sueldo;
+
+import java.util.Scanner;
+
+public class Sueldo {
+
+    public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    float sueldo, horas,total;
+    System.out.println("ingrese su sueldo mensual recibido");
+    sueldo = entrada.nextFloat();
+    System.out.println("el sueldo es de:"+sueldo);
+    System.out.println("ingrese la cantidad de horas semanales laboradas:");
+    horas = entrada.nextFloat();
+    System.out.println("las horas laboradas fueron:"+horas);
+    total = sueldo/horas;
+    System.out.println("su sueldo por hora laborada es de:"+total);
+    
+}
+}
